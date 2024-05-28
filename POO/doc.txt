@@ -1,0 +1,37 @@
+Em javascript os objetos podem ser gerados por --> classes e funções
+Dentro de um objeto podemos ter: valores(atributos) e comportamentos | e eles interagem uns com os outros
+
+Herança: 
+--> Objetos filhos que herdam características do objeto pai
+
+Abstração: 
+--> Pegar um objeto do mundo real e traduzir ele de forma simplificada e reduzida pra dentro do meu programa/sistema.
+Ex: carro tem o método ligar, método desligar.. atributo cor, atributo tamanho, atributo placa, etc.
+Abstrair é usar o que é essencial do objeto pra dentro do meu modelo de negócio, por exemplo:
+
+Ex. No detran, se eu usar o objeto carro, eu não preciso trazer pro meu programa
+o atributo motor, gasolina, nem os métodos ligar, desligar, por exemplo.. o que é essencial pro detran?
+a placa do veículo, o ano, documentação do veículo, etc.
+Então abstrair é pegar o que é de essencial no objeto pra usar no programa, conforme a necessidade
+do negócio que exige aquele objeto.  A abstração muda pra cada modelo de negócio.. porque cada modelo
+pode usar o objeto de formas diferentes.
+
+Encapsulamento: 
+--> Tem a ver com manter oculto informações que o usuário não precisa ter acesso.. e deixar
+exposto apenas o que será utilizado pelo usuário.
+Usando o exemplo do carro: o que o usuário precisa de um carro? Volante, poltrona, marcha, rádio, sinal, etc.
+E o que ele não precisa? Motor, fiação, bomba de óleo, engrenagens, carburador, etc.
+Então são coisas essenciais pro carro funcionar!! Mas não é essencial pro usuário ter como fácil acesso. 
+E se ele tiver, é até possível que ele danifique algo. Então o encapsulamento surge pra encapsular essas coisas
+e deixar disponível pro usuário apenas o que ele vai de fato utilizar, de formas simples e prática. 
+--> É sobre esconder os detalhes da implementação e expor externamente apenas uma interface de comunicação!!  */
+
+Herança:
+--> Objetos filhos herdam características (atributos e comportamentos) de um objeto pai --> E1
+
+Polimorfismo: 
+--> Ideia de múltiplas formas --> 
+
+
+
+
